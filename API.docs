@@ -1,0 +1,16 @@
+what is stateless ?
+Stateless APIs are web services that do not store client session or context information. Instead, each request is treated as a completely new interaction, and the API does not maintain any state between requests.
+
+what is statefull ?
+A stateful API relies on the server to maintain the state of the client's session. In other words, a stateful API requires the server to keep track of the current state of the client's session, which includes all the information necessary to identify the client and its current form.
+
+Difference between stateless and stateful ?
+Stateful apps save client session data on the server, providing historical context and faster processing. In contrast, stateless apps don't save client session data on the server and rely on externalized state data.
+
+Example of Authentication and Authorization:
+Example of netflix account
+    Authentication:
+    Login Process: When you open Netflix, you are prompted to log in using your email and password (or other login methods like using Google/Facebook). This is the authentication process where Netflix checks if the entered credentials are valid.
+    Authorization:
+    Authorization is the process of determining what an authenticated user is allowed to do. It answers the question: What permissions do you have?
+    Admin user (e.g., a parent account on Netflix Family): Can manage billing, create profiles, set restrictions (like kids’ profiles), and access the parental controls.
